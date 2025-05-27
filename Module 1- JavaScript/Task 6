@@ -1,0 +1,17 @@
+// Task 6: Arrays and Methods
+let events = [
+  { name: "Music Night", category: "Music", location: "Park" },
+  { name: "Tech Talk", category: "Tech", location: "Library" },
+  { name: "Baking Workshop", category: "Workshop", location: "Community Center" }
+];
+
+// Add new event using push
+events.push({ name: "Jazz Festival", category: "Music", location: "Arena" });
+
+// Filter to show only music events
+const musicEvents = events.filter(e => e.category === "Music");
+console.log("Music Events:", musicEvents);
+
+// Format display cards using map
+const formattedEvents = events.map(e => `Event: ${e.name} at ${e.location}`);
+console.log("Formatted Events:", formattedEvents);

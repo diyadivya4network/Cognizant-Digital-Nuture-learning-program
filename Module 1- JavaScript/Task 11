@@ -1,0 +1,12 @@
+// Task 11: Working with Forms
+document.getElementById("registerForm").addEventListener("submit", function (e) {
+  e.preventDefault();
+  const { name, email, eventSelect } = this.elements;
+
+  if (!name.value || !email.value || !eventSelect.value) {
+    alert("All fields are required");
+    return;
+  }
+
+  console.log(`User: ${name.value}, Email: ${email.value}, Event: ${eventSelect.value}`);
+});

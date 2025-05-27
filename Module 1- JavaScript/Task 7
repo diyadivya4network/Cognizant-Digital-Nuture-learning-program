@@ -1,0 +1,25 @@
+// Task 7: DOM Manipulation
+let events = [
+  { name: "Music Night", date: "2025-07-01", category: "Music" },
+  { name: "Tech Talk", date: "2025-08-20", category: "Tech" }
+];
+
+function renderEvents() {
+  const container = document.getElementById("eventsContainer");
+  container.innerHTML = "";
+  events.forEach(event => {
+    const card = document.createElement("div");
+    card.innerHTML = `
+      <h3>${event.name}</h3>
+      <p>${event.date} - ${event.category}</p>
+      <button onclick="register('${event.name}')">Register</button>
+    `;
+    container.appendChild(card);
+  });
+}
+
+function register(eventName) {
+  alert(`Registered for ${eventName}`);
+}
+
+document.addEventListener("DOMContentLoaded", renderEvents);

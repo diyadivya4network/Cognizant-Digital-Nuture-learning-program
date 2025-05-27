@@ -1,0 +1,27 @@
+// Task 4: Functions, Scope, Closures, Higher-Order Functions
+let events = [
+  { name: "Music Night", category: "Music" },
+  { name: "Tech Talk", category: "Tech" },
+  { name: "Baking Workshop", category: "Workshop" }
+];
+
+function addEvent(event) {
+  events.push(event);
+}
+
+function registerUser(name, email, eventName) {
+  console.log(`${name} (${email}) registered for ${eventName}`);
+}
+
+function filterEventsByCategory(category) {
+  return events.filter(e => e.category === category);
+}
+
+function registrationCounter(category) {
+  let count = 0;
+  return () => ++count;
+}
+
+function dynamicFilter(callback) {
+  return events.filter(callback);
+}

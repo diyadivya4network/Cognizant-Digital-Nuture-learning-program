@@ -1,0 +1,31 @@
+// Task 3: Conditionals, Loops, and Error Handling
+let events = [
+  { name: "Music Night", date: "2025-07-01", seats: 10 },
+  { name: "Baking Workshop", date: "2025-06-15", seats: 0 },
+  { name: "Tech Talk", date: "2025-08-20", seats: 5 }
+];
+
+function displayEvents() {
+  const today = new Date().toISOString().split("T")[0];
+  events.forEach(event => {
+    if (event.date > today && event.seats > 0) {
+      console.log(`${event.name} - ${event.date}`);
+    }
+  });
+}
+
+displayEvents();
+
+function register(eventName) {
+  try {
+    let ev = events.find(e => e.name === eventName);
+    if (ev && ev.seats > 0) {
+      ev.seats--;
+      console.log("Registered!");
+    } else {
+      throw new Error("No seats available");
+    }
+  } catch (error) {
+    console.error(error.message);
+  }
+}

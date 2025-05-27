@@ -1,0 +1,13 @@
+// Task 5: Objects and Prototypes
+function Event(name, date, seats) {
+  this.name = name;
+  this.date = date;
+  this.seats = seats;
+}
+
+Event.prototype.checkAvailability = function () {
+  return this.seats > 0;
+};
+
+const sampleEvent = new Event("Yoga Class", "2025-09-01", 8);
+console.log(Object.entries(sampleEvent));

@@ -1,0 +1,12 @@
+// Task 8: Event Handling
+document.getElementById("registerForm").addEventListener("change", (e) => {
+  if (e.target.name === "eventSelect") {
+    console.log("Selected category:", e.target.value);
+  }
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "s") {
+    console.log("Quick search triggered");
+  }
+});

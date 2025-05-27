@@ -1,0 +1,12 @@
+// Task 10: Modern JavaScript Features
+const event = { name: "Music Night", date: "2025-07-01", seats: 10 };
+
+function showEvent({ name, date, seats } = {}) {
+  console.log(`Name: ${name}, Date: ${date}, Seats: ${seats}`);
+}
+
+showEvent(event);
+
+const events = [event];
+const clonedEvents = [...events];
+console.log("Cloned Events:", clonedEvents);

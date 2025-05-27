@@ -1,0 +1,6 @@
+// Task 2: Syntax, Data Types, and Operators
+const eventName = "Music Night";
+const eventDate = "2025-07-01";
+let seatsAvailable = 10;
+console.log(`${eventName} on ${eventDate}, Seats: ${seatsAvailable}`);
+seatsAvailable--;

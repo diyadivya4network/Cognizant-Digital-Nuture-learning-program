@@ -1,0 +1,14 @@
+// Task 14: jQuery and JS Frameworks
+// Make sure to include jQuery in your HTML file
+$(document).ready(function () {
+  $('#registerForm button').click(function () {
+    alert("Registered with jQuery!");
+  });
+
+  $('#eventsContainer div').fadeIn();
+});
+
+// Benefit of React/Vue:
+// Frameworks like React or Vue offer better state management,
+// component-based architecture, and reactivity which simplify
+// building scalable and maintainable applications.
