@@ -1,0 +1,9 @@
+<!-- Exercise 9.1 -->
+<button class="btn btn-primary">Primary</button>
+<button class="btn btn-outline-danger">Outline</button>
+
+<!-- Exercise 9.2 -->
+<div class="btn-group">
+  <input type="checkbox" class="btn-check" id="toggle1">
+  <label class="btn btn-outline-primary" for="toggle1">Toggle 1</label>
+</div>

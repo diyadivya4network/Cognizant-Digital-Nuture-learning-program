@@ -1,0 +1,20 @@
+<!-- Exercise 10.1 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Logo</a>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+    </ul>
+    <form class="d-flex ms-auto">
+      <input class="form-control me-2" type="search" placeholder="Search">
+    </form>
+  </div>
+</nav>
+
+<!-- Exercise 10.2 -->
+<ul class="nav nav-tabs">
+  <li class="nav-item"><a class="nav-link active" href="#">Tab 1</a></li>
+</ul>
+<ul class="nav nav-pills mt-2">
+  <li class="nav-item"><a class="nav-link active" href="#">Pill 1</a></li>
+</ul>

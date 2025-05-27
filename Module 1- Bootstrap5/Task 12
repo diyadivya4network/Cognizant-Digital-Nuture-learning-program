@@ -1,0 +1,6 @@
+<!-- Exercise 12.1 -->
+<div class="m-3 p-2 bg-light">Margin & Padding</div>
+<div class="mt-4 py-5 bg-secondary">Vertical Spacing</div>
+
+<!-- Exercise 12.2 -->
+<section class="p-4 m-3 bg-light text-center">Pricing Section</section>

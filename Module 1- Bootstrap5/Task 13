@@ -1,0 +1,6 @@
+<!-- Exercise 13.1 -->
+<div class="bg-primary text-white p-3">Primary BG</div>
+<div class="bg-warning text-dark p-3">Warning BG</div>
+
+<!-- Exercise 13.2 -->
+<div class="bg-dark bg-gradient text-white p-3">Gradient Dark</div>

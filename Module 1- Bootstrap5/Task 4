@@ -1,0 +1,18 @@
+<!-- Exercise 4.1: Sidebar Layout -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-3 bg-light">Sidebar</div>
+    <div class="col-md-9 bg-secondary">Main Content</div>
+  </div>
+</div>
+
+
+<!-- Exercise 4.2: Four Columns -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-sm-3 bg-light">1</div>
+    <div class="col-sm-3 bg-secondary">2</div>
+    <div class="col-sm-3 bg-info">3</div>
+    <div class="col-sm-3 bg-warning">4</div>
+  </div>
+</div>

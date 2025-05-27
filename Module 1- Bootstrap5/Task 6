@@ -1,0 +1,11 @@
+<!-- Exercise 6.1: Responsive Navbar -->
+<div class="d-flex flex-column flex-md-row bg-light p-3">
+  <div>Logo</div>
+  <div class="ms-md-auto">Links</div>
+</div>
+
+<!-- Exercise 6.2: Card Layout -->
+<div class="card d-flex flex-row justify-content-between align-items-center p-3">
+  <div>Left</div>
+  <div>Right</div>
+</div>

@@ -1,0 +1,17 @@
+<!-- Exercise 11.1 -->
+<div class="card" style="width: 18rem;">
+  <img src="profile.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Profile</h5>
+    <p class="card-text">Some text here.</p>
+  </div>
+</div>
+
+<!-- Exercise 11.2 -->
+<div class="d-flex">
+  <img src="img.jpg" class="me-3" style="width: 64px;">
+  <div>
+    <h5>Media Heading</h5>
+    <p>Content next to image.</p>
+  </div>
+</div>
