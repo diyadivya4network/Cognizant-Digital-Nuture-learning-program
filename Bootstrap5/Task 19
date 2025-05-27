@@ -1,0 +1,9 @@
+# Exercise 19.1 (Terminal)
+npm install bootstrap
+
+
+// Exercise 19.2: _variables.scss
+$primary: #ff5722;
+$border-radius: 1rem;
+
+@import "node_modules/bootstrap/scss/bootstrap";

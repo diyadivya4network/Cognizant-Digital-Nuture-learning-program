@@ -1,0 +1,11 @@
+<!-- Exercise 7.1 -->
+<div class="container">
+  <h1 class="display-1">Heading</h1>
+  <p class="lead">Lead paragraph.</p>
+  <p class="text-muted fw-bold">Muted & Bold Text</p>
+</div>
+
+<!-- Exercise 7.2 -->
+<p class="text-uppercase">uppercase</p>
+<p class="text-lowercase">LOWERCASE</p>
+<p class="text-capitalize">capitalize this sentence</p>

@@ -1,0 +1,5 @@
+<!-- Exercise 15.1 -->
+<img src="avatar.jpg" class="border border-primary border-3 rounded-circle" width="100">
+
+<!-- Exercise 15.2 -->
+<div class="card shadow-lg rounded-pill p-3">Styled Card</div>
