@@ -1,0 +1,20 @@
+.nav-menu {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  body {
+    font-size: 90%;
+  }
+}

@@ -1,0 +1,30 @@
+/* Reset with universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Element selector */
+h2 {
+  color: darkblue;
+}
+
+/* ID selector */
+#mainHeader {
+  background-color: lightyellow;
+  padding: 10px;
+}
+
+/* Class selector */
+.eventCard {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #fff;
+}
+
+/* Grouping selector */
+h3, p {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
