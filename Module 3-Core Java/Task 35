@@ -1,0 +1,43 @@
+//Server
+import java.net.*;
+import java.io.*;
+
+public class Server {
+    public static void main(String[] args) throws IOException {
+        ServerSocket ss = new ServerSocket(5000);
+        Socket s = ss.accept();
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(s.getInputStream()));
+        PrintWriter pw = new PrintWriter(s.getOutputStream(), true);
+
+        String msg;
+        while (!(msg = br.readLine()).equals("bye")) {
+            System.out.println("Client: " + msg);
+            pw.println("Server received: " + msg);
+        }
+
+        s.close();
+        ss.close();
+    }
+}
+
+//Client
+import java.net.*;
+import java.io.*;
+
+public class Client {
+    public static void main(String[] args) throws IOException {
+        Socket s = new Socket("localhost", 5000);
+        BufferedReader userIn = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream()));
+        PrintWriter out = new PrintWriter(s.getOutputStream(), true);
+
+        String msg;
+        while (!(msg = userIn.readLine()).equals("bye")) {
+            out.println(msg);
+            System.out.println(in.readLine());
+        }
+
+        s.close();
+    }
+}

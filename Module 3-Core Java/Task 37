@@ -1,0 +1,10 @@
+//sing javap to Inspect Bytecode 
+public class Hello {
+    public void greet() {
+        System.out.println("Hello!");
+    }
+}
+
+//then run:
+//javac Hello.java
+//javap -c Hello

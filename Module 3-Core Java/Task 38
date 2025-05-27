@@ -1,0 +1,6 @@
+// Decompile a Class File 
+public class Sample {
+    public static void main(String[] args) {
+        System.out.println("Decompile me!");
+    }
+}
